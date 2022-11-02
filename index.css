@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:midnightblue;
+}
+
+#results{
+    font-size: 20px;
+}
+
+#BTN1,#BTN2,#BTN3{
+    height: 150px;
+    width: 150px;
+    font-size: 60px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+#bigDaddy{
+    display:block;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+#results{
+    background: blue;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+#BTN1{
+color:maroon;
+}
+#BTN2{
+    color:lightsalmon;
+}
+#BTN3{
+    color: orange;
+}
+
+
+#WL{
+    visibility: hidden;
+    font-size: 170px;
+}
+#rply{
+    color: black;
+    padding: 25px;
+    margin-top: 20%;
+}
